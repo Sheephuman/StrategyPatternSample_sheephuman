@@ -1,0 +1,21 @@
+﻿<Window x:Class="ComplexStrategySample_sheephuman.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComplexStrategySample_sheephuman"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <!-- CheckBox コントロール -->
+            <CheckBox x:Name="CheckBoxA" Content="条件A" Margin="10"/>
+            <CheckBox x:Name="CheckBoxB" Content="条件B" Margin="10"/>
+            <CheckBox x:Name="CheckBoxC" Content="条件C" Margin="10"/>
+            <CheckBox x:Name="CheckBoxD" Content="条件D" Margin="10"/>
+
+            <!-- 評価ボタン -->
+            <Button Content="評価" Margin="10" Click="EvaluateButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
