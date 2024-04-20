@@ -1,0 +1,17 @@
+﻿<Window x:Class="StrategyPatternSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StrategyPatternSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="400">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <RadioButton Name="radioButton1" Content="SheepPatten1" Checked="RadioButton_Checked" />
+            <RadioButton Name="radioButton2" Content="SheepPatten2" Checked="RadioButton_Checked" />
+            <RadioButton Name="radioButton3" Content="SheepPatten3" Checked="RadioButton_Checked" />
+            <TextBlock Name="textBlockResult" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
